@@ -15,19 +15,19 @@ pip install serato-usb-export
 **Windows**
 
 ```cmd
->>> serato_usb_export --drive E --crate_matcher *house* *techno* --root_crate="Dave USB"
+serato_usb_export --drive E --crate_matcher *house* *techno* --root_crate="Dave USB"
 ```
 
 **Mac**
 
 ```cmd
->>> serato_usb_export --drive "/Volumes/MY_USB/" --crate_matcher *house* *techno* --root_crate="Dave USB"
+serato_usb_export --drive "/Volumes/MY_USB/" --crate_matcher *house* *techno* --root_crate="Dave USB"
 ```
 
 **Linux**
 
 ```cmd
->>> serato_usb_export --drive "/media/dave/MY_USB/" --crate_matcher *house* *techno* --root_crate="Dave USB"
+serato_usb_export --drive "/media/dave/MY_USB/" --crate_matcher *house* *techno* --root_crate="Dave USB"
 ```
 
 
