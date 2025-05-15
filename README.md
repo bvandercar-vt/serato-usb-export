@@ -30,7 +30,26 @@ serato_usb_export --drive "/Volumes/MY_USB/" --crate_matcher *house* *techno* --
 serato_usb_export --drive "/media/dave/MY_USB/" --crate_matcher *house* *techno* --root_crate="Dave USB"
 ```
 
+`root_crate` is 
 
 
+**Arguments**
+
+_See argument usage:_  `serato_usb_export --help`
+
+
+`-d, --drive, --drive_dir`
+
+Directory of the destination drive. Example: "E" on Windows
+
+`-c, --crates, --crate_matcher`
+
+Glob or Regex matcher for crate and smartcrate filenames. Example: "\*house\*". Can pass multiple to OR them. To copy all, pass "\*"
+
+`--root_crate`
+
+Not required, but is nice when plugging your drive into another DJ's laptop. Sets all crates to be within this crate on the destination drive
+
+### Contributing / Issues
 
 _This is a wrapper of my [serato-tools](https://github.com/bvandercar-vt/serato-tools) package. Please open issues and contribute there._
