@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "serato-usb-export"
-version = "1.0.1"
+version = "1.0.2"
 description = "Better Serato USB export that beats Serato's sync by putting all files in 1 folder (without duplicates) and only copying changed files, unlike Serato's sync which takes forever and creates many duplicate file locations"
 keywords = [
     "serato",
@@ -18,7 +18,7 @@ authors = [
     { name = "bvandercar-vt", email = "bvandercar@outlook.com" },
 ]
 license = "MIT"
-dependencies = []
+dependencies = ["serato_tools"]
 
 [project.urls]
 Homepage = "https://pypi.org/project/serato-tools/"
